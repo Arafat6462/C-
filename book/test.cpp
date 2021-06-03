@@ -3,9 +3,9 @@
 using namespace std;
 int main(){
 
-    double r,area,pi;
-    cin>>r;
-    pi = acos(-1);
-    area = pi * r * r;
-    cout<<"area is : "<<area<<endl;
+   int a;
+   cout<<"hello world"<<endl;
+   cin>>a;
+   cout<<a<<endl;
+   
 }
