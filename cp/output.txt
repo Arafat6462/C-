@@ -1,33 +1,10 @@
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
-hello
+Enter the number of nodes : Enter the number of edges : 0 1 1 0 0 
+1 0 1 1 1 
+1 1 0 0 0 
+0 1 0 0 1 
+0 1 0 1 0 
+
+adjacent node of node :(0)
+1 2 
+color of all nodes are : 
+3 3 3 3 3 
