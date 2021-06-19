@@ -1,6 +1,5 @@
 
 #include<iostream>
-#include <math.h>
 using namespace std;
 
 
@@ -17,29 +16,13 @@ int main()
 {
 	inputOutput();
 
-	long long int  n;
-	cin >> n;
-	bool b = true;
-	// for (int i =2; i < n; i++)
-	// {
-	//     if (n%i == 0)
-	//     {
-	//        b = false;
-	//     }
-
-	// }
-
-
-	// sqrt(n)/2
-	for (int i = 2; i <= sqrt(n); i ++)
+	int t;
+	cin >> t;
+	while (t--)
 	{
-		if (n % i == 0)
-		{
-			b = false;
-		}
+		cout << "hello" << endl;
 
 	}
-	cout << n << " is prime : " << boolalpha << b << endl;
 
 
 }
