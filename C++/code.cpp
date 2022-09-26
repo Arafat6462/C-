@@ -20,8 +20,7 @@ int main()
 	cin >> t;
 	while (t--)
 	{
-		cout << "hello" << endl;
-
+		cout << "helsl";
 	}
 
 

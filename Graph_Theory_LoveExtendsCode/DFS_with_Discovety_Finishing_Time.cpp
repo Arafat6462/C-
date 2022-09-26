@@ -15,6 +15,11 @@ void inputOutput()
 #endif
 }
 
+// for discovery & finishing Time
+int Time = 1;
+int stime[100];
+int ftime[100];
+
 
 int adj[100][100];
 int color[100];
@@ -24,6 +29,8 @@ int node, edge;
 void dfsVisit(int x)
 {
 	color[x] = GRAY;
+	stime[x] = Time;
+	++Time;
 
 	// find neighbour of (x) with 'white' value then call dfsVisit for 'x'
 	for (int i = 0; i < node; ++i)
@@ -38,6 +45,8 @@ void dfsVisit(int x)
 	}
 
 	color[x] = BLACK;
+	ftime[x] = Time;
+	++Time;
 }
 
 
@@ -117,8 +126,11 @@ int main()
 		cout << color[i] << " ";
 	}
 
-
-
-
+	// print discovery/start & finishing Time
+	cout << "\n\nstart & finish Time : " << endl;
+	for (int i = 0; i < node; ++i)
+	{
+		cout << "node: " << (char)('A' + i) << " " << stime[i] << " " << ftime[i] << endl;
+	}
 }
 
