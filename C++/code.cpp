@@ -20,8 +20,33 @@ int main()
 	cin >> t;
 	while (t--)
 	{
-		cout << "helsl";
-	}
+		cin >> a >> b >> c;
+
+		if (b > c)
+		{
+			if (a > b)
+				cout << 2;
+			else if (a == b)
+				cout << 3;
+			else cout << 1;
+		}
+		else
+		{
+
+		}
+
+
+
+else:
+			b = c + (c - b)
+    if a > b:
+			    print(2)
+    elif a == b:
+				    print(3)
+    else:
+					    print(1)
+
+				}
 
 
 }
